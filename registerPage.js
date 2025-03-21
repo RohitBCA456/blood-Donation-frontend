@@ -22,7 +22,7 @@ form.addEventListener("submit", async (event) => {
 
     if(response.ok){
       alert("Registered successfully.");
-      window.location.href = "http://127.0.0.1:5500/Frotend/loginPage.html";
+      window.location.href = "https://blooddonationdib.netlify.app/loginPage.html";
     }
   } catch (error) {
     console.error("Error submitting form:", error);

@@ -19,7 +19,7 @@ form.addEventListener("submit", async (event) => {
 
     if (response.ok) {
       alert("Login successfully.");
-      window.location.href = "http://127.0.0.1:5500/Frotend/home.html";
+      window.location.href = "https://blooddonationdib.netlify.app/home.html";
     } else {
       alert("Invalid Credentials! Please try again.");
     }

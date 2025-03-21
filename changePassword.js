@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
               const data = await response.json();
               console.log("Password changed successfully:", data);
               alert("Password changed successfully!");
-              window.location.href = "http://127.0.0.1:5500/Frotend/home.html";
+              window.location.href = "https://blooddonationdib.netlify.app/home.html";
               
             } catch (error) {
               console.error("Error:", error);
