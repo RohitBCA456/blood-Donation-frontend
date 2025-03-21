@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
               console.log("Sending request to backend...");
         
               const response = await fetch(
-                "https://blood-donation-8nn5.vercel.app/v2/users/change-password",
+                "https://blood-donation-8nn5.vercel.app/api/v2/users/change-password",
                 {
                   method: "POST",
                   body: formData,
