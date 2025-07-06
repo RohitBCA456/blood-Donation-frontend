@@ -1,6 +1,6 @@
 async function fetchDonors() {
           try {
-              const response = await fetch("https://blood-donation-8nn5.vercel.app/api/v2/users/donors",
+              const response = await fetch("https://localhost:8000/api/v2/users/donors",
                     {
                               method: 'GET',
                           credentials: 'include',
